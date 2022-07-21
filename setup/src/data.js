@@ -1,37 +1,43 @@
+import runningPic from "./images/filip-mroz-running.jpg";
+import plantPic from "./images/annie-spratt-plant.jpg";
+import laundryPic from "./images/annie-spratt-laundry.jpg";
+import gymPic from "./images/john-arano-strength-training.jpg";
+import mealPic from "./images/ella-olsson-meal-prep.jpg";
+
 export default [
   {
     id: 1,
-    name: 'Bertie Yates',
-    age: 29,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
+    name: "Running program x 3",
+    time: "90 minutes",
+    image: runningPic,
+    // Photo by <a href="https://unsplash.com/@mroz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Filip Mroz</a> on <a href="https://unsplash.com/s/photos/running?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   },
   {
     id: 2,
-    name: 'Hester Hogan',
-    age: 32,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-3_rxtqvi.jpg',
+    name: "Water plants",
+    time: "10 minutes",
+    image: plantPic,
+    //Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/house-plants?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   },
   {
     id: 3,
-    name: 'Larry Little',
-    age: 36,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
+    name: "Laundry",
+    time: "2 hours",
+    image: laundryPic,
+    //https://unsplash.com/photos/5TfCI4nj6B4
   },
   {
     id: 4,
-    name: 'Sean Walsh',
-    age: 34,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+    name: "Strength training x 3",
+    time: "3 hours",
+    image: gymPic,
+    //https://unsplash.com/photos/h4i9G-de7Po
   },
   {
     id: 5,
-    name: 'Lola Gardner',
-    age: 29,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+    name: "Meal prep",
+    time: "3 hours",
+    image: mealPic,
+    // https://unsplash.com/photos/lMcRyBx4G50
   },
 ];
