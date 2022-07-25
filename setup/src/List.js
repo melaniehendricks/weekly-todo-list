@@ -4,10 +4,12 @@ const List = ({ tasks }) => {
   return (
     <>
       {tasks.map((task) => {
-        const { id, name, time, image } = task;
+        const { id, name, time, image, source } = task;
         return (
           <article key={id} className="person">
-            <img src={image} alt={name} />
+            <a href={source}>
+              <img src={image} alt={name} />
+            </a>
             <div>
               <h4> {name}</h4>
               <p>{time}</p>
